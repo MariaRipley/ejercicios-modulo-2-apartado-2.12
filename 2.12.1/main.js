@@ -38,6 +38,14 @@ const greetings2 = users.map(user => {
     
 
     return container;
+
+    //Con operador ternario
+
+    /*
+        return eachUser.isPremium
+            ? `Bienvenida ${user}. Gracias por confiar en nosotros`
+            ? `Bienvenida ${user}`
+    */
 });
 
 console.log(greetings2);
